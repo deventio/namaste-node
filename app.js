@@ -1,10 +1,5 @@
 
-//require("./xyz")
-//const obj = require("./sum")
-//const { calculateSum} = require("./calculate/sum")
-//import  { calculateSum} from "./sum.js";
-//const {calculateMultiply} = require("./calculate/multiply")
-
+require ("./xyz.js");
 const util = require("node:util");
 const {calculateMultiply, calculateSum} = require("./calculate/")
 
@@ -13,19 +8,7 @@ var name = "Namaste NodeJS"
 
 console.log(data);
 var a= 10;
-var b =12;
-var x=100; 
+var b =20;
 
-console.log(name);
-console.log(a+b);
-//console.log(obj.x);
-//obj.calculateSum(a,b);
-calculateSum(a,x);
-calculateMultiply(a,x);
-//console.log(x);
-//console.log(global);
-//console.log(this); //empty
-
-//console.log(globalThis);
-
-//console.log(global === globalThis); //true
+calculateSum(a,b);
+calculateMultiply(a,b);
